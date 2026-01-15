@@ -1,0 +1,155 @@
+/*
+Div adli etikete arka plan ve yazi rengi değistirme ozellikleri uygulanmistir
+*/
+body{
+    background-image: url("React.png");
+    background-attachment: fixed;
+}
+
+.Baba{
+    background-color: rgb(30, 30, 196);
+    color: white;
+    width: 50%;
+    height: 4cm;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    text-indent: 50px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: scroll;
+    font-weight: bold;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
+    outline: 5px dotted black;
+    margin: 10px 20px 30px 40px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+}
+
+.sinif1 {
+background-color: #cececece;
+padding: 0.2in;
+}
+
+#secilimler {
+background-color: hsla(277, 92%, 43%, 0.8);
+color: blue;
+margin: 1.5em;
+text-transform: lowercase;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+a:link{
+    background-color: red;
+}
+a:visited{
+    background-color: yellow;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+a:active{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    position: relative;
+    left: -5px;
+    z-index: -1;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: right;
+    width: 300px;
+    height: 300px;
+
+    min-width: 200px;
+    min-height: 200px;
+
+    max-height: 400px;
+    max-width: 400px;
+
+    visibility: hidden;
+
+}
+
+ul, ol, form{
+    background-color: antiquewhite;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+ol{
+    display: none;
+}
+
+ul li{
+    color: blue;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}
+
+.ana{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 300px;;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(50%)
+
+}
+
+.ana .eleman{
+background-color: antiquewhite;
+margin: 10px;
+padding: 10px;
+float: right;
+opacity: 0.4;
+
+}
+
+@media (max-width: 760px){
+    .ana{
+        background-color: blue;
+        color: red;
+    }
+    .Baba{
+        background-color: red;
+        color: white;
+    }
+}
+
+
+input[type="tel"]{
+    background-color: red;
+    color: white;
+}
